@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import { Container } from "../../components/Grid";
 import { List, ListItem } from "../../components/List";
-import BookBtn from "../../components/BookBtn/BookBtn.js";
+import BookBtn from "../../components/BookBtn/BookBtn";
 import Jumbotron from "../../components/Jumbotron";
 import API from "../../utils/API";
 
@@ -45,8 +45,8 @@ class Results extends Component {
       return (
         <div>
           <Jumbotron>
-            <h1 className="display-4">Google Book Search</h1>
-            <p className="lead">Search for Books by Title</p>
+            <h1 className="display-4">(React) Google Books Search</h1>
+            <p className="lead">Search for and annotate books of interest.</p>
             <hr className="my-4" />
             <p className="lead">
               <Link className="btn btn-default btn-lg" to="/" role="button">New Search</Link>
@@ -62,8 +62,8 @@ class Results extends Component {
     return (
       <div>
         <Jumbotron>
-          <h1 className="display-4">Google Book Search</h1>
-          <p className="lead">Search for Books by Title</p>
+          <h1 className="display-4">(React) Google Books Search</h1>
+          <p className="lead">Search for and save books of interest.</p>
           <hr className="my-4" />
           <p className="lead">
             <Link className="btn btn-default btn-lg" to="/" role="button">New Search</Link>

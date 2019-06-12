@@ -4,7 +4,7 @@ import { Container } from "../../components/Grid";
 import { List, ListItem } from "../../components/List";
 import Jumbotron from "../../components/Jumbotron";
 import API from "../../utils/API";
-import BookBtn from "../../components/BookBtn/BookBtn.js";
+import BookBtn from "../../components/BookBtn/BookBtn";
 
 class Saved extends Component {
   state = {
@@ -47,7 +47,7 @@ class Saved extends Component {
         <div>
           <Jumbotron>
             <h1 className="display-4">Google Book Search</h1>
-            <p className="lead">Collection of All of Your Saved Books</p>
+            <p className="lead">Collection of All Your Saved Books</p>
             <hr className="my-4" />
             <p className="lead">
               <Link className="btn btn-default btn-lg" to="/" role="button">New Search</Link>
@@ -55,7 +55,7 @@ class Saved extends Component {
             </p>
           </Jumbotron>
           <Container>
-            <Link to="/">You have no saved books. Click here to find some.</Link>
+            <Link to="/">You currently have no saved books</Link>
           </Container>
         </div>
       )
@@ -64,7 +64,7 @@ class Saved extends Component {
       <div>
         <Jumbotron>
           <h1 className="display-4">Google Book Search</h1>
-          <p className="lead">Collection of All of Your Saved Books</p>
+          <p className="lead">Collection of All Your Saved Books</p>
           <hr className="my-4" />
           <p className="lead">
             <Link className="btn btn-default btn-lg" to="/" role="button">New Search</Link>
