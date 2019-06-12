@@ -1,0 +1,15 @@
+.jumbotron {
+    background-image: url("https://cdn2.theweek.co.uk/sites/theweek/files/2019/01/wd-books_-_joel_sagetafpgetty_images.jpg")
+}
+
+h1 {
+    color: white;
+}
+
+.lead {
+    color: white;
+}
+
+.btn-default {
+    color: white;
+}
